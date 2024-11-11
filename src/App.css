@@ -1,0 +1,255 @@
+:root {
+  --primary: #0070ff;
+  --secondary: #7f56d9;
+  --tertiary: #ebeefd;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+body {
+  font-family: "Inter", sans-serif !important;
+}
+
+.container {
+  padding: 8px 24px !important;
+  width: 70% !important;
+  margin: auto !important;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  margin: 0px !important;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+  margin: 0px !important;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0px !important;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  margin: 0px !important;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px !important;
+}
+
+h6 {
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0px !important;
+}
+.body-regular {
+  font-size: 14px !important;
+  line-height: 20x !important;
+  font-weight: 400 !important;
+  margin: 0px !important;
+}
+
+.caption {
+  font-size: 12px !important;
+  line-height: 16px !important;
+  font-weight: 400 !important;
+  margin: 0px !important;
+}
+
+/* Allignment CSS Started */
+.center {
+  text-align: center !important;
+}
+.left {
+  text-align: left !important;
+}
+.right {
+  text-align: right !important;
+}
+.fx_fs {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+.fx_fe {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+
+.fx_sb {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.fx_c {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Allignment CSS Ended */
+
+/* font-weights */
+.fw4 {
+  font-weight: 400 !important;
+}
+
+.fw5 {
+  font-weight: 500 !important;
+}
+
+.fw6 {
+  font-weight: 600 !important;
+}
+
+.fw7 {
+  font-weight: 700 !important;
+}
+
+/* font-weights */
+
+.sm-radius {
+  border-radius: 3px !important;
+}
+.md-radius {
+  border-radius: 6px !important;
+}
+
+.lg-radius {
+  border-radius: 12px !important;
+}
+.xl-radius {
+  border-radius: 24px !important;
+}
+.r-radius {
+  border-radius: 999px !important;
+}
+
+/* Header CSS STarted */
+.header {
+  background-color: var(--primary) !important;
+  padding: 12px !important;
+  color: var(--white) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.header .logo {
+  height: 35px !important;
+  width: 35px !important;
+  background-color: var(--white) !important;
+  border-radius: 50% !important;
+  margin-right: 12px !important;
+}
+
+/* forms css started */
+
+.form-bx {
+  border-radius: 24px !important;
+  background-color: var(--tertiary) !important;
+  padding: 20px !important;
+  display: block !important;
+  margin-top: 20px !important;
+}
+
+.form-bx .row {
+  display: flex !important;
+  gap: 30px !important;
+}
+.row .input-field {
+  width: 100% !important;
+}
+
+.input-field .helpertext {
+  color: #a3a3a3 !important;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+/*  */
+
+.input-field {
+  /* display: block !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important; */
+  text-align: left !important;
+}
+
+.input-field input {
+  width: 100% !important;
+  padding: 4px 0px !important;
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  border-radius: 4px !important;
+}
+
+
+.input-field select {
+  width: 100% !important;
+  padding: 4px 0px !important;
+  font-family: "Inter", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  border-radius: 4px !important;
+}
+
+.checkbox {
+  display: flex !important;
+}
+
+.checkbox-group {
+  display: flex !important;
+  gap: 20px !important;
+  padding: 20px !important;
+}
+
+.btn-grid {
+  padding: 20px !important;
+  padding-bottom: 10px !important;
+}
+
+button {
+  background-color: var(--primary) !important;
+  padding: 4px 30px !important;
+  border-radius: 8px !important;
+  width: auto !important;
+  color: var(--white) !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* table css stared */
+.table-container {
+  overflow: auto !important;
+  padding: 30px 0px !important;
+}
+
+table {
+  width: 100% !important;
+  margin-bottom: 10px !important;
+}
+
+thead tr th{
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #585858 !important;
+  padding: 8px !important;
+}
